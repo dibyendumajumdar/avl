@@ -1,0 +1,1705 @@
+
+INSERTION: Example # 1
+Initial tree is NULL
+
+Inserting a
+Done ! Final tree is as below
+
+    a-  
+
+INSERTION: Example # 2
+Initial tree is as below
+
+    a-  
+
+Inserting b
+After insertion tree looks like below
+
+      a-      
+
+    **  b-  
+
+Rebalancing tree
+Setting balance of a to RightHigh
+
+      a\      
+
+    **  b-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 3
+Initial tree is as below
+
+      a\      
+
+    **  b-  
+
+Inserting c
+After insertion tree looks like below
+
+          a\              
+
+      **      b-      
+
+    **  **  **  c-  
+
+Rebalancing tree
+Setting balance of b to RightHigh
+
+      b\      
+
+    **  c-  
+
+Setting balance of a and b to Equal and
+Rotating tree left at a
+
+      b-      
+
+    a-  c-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 4
+Initial tree is as below
+
+      b-      
+
+    a-  c-  
+
+Inserting d
+After insertion tree looks like below
+
+          b-              
+
+      a-      c-      
+
+    **  **  **  d-  
+
+Rebalancing tree
+Setting balance of c to RightHigh
+
+      c\      
+
+    **  d-  
+
+Setting balance of b to RightHigh
+
+          b\              
+
+      a-      c\      
+
+    **  **  **  d-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 5
+Initial tree is as below
+
+          b\              
+
+      a-      c\      
+
+    **  **  **  d-  
+
+Inserting e
+After insertion tree looks like below
+
+                  b\                              
+
+          a-              c\              
+
+      **      **      **      d-      
+
+    **  **  **  **  **  **  **  e-  
+
+Rebalancing tree
+Setting balance of d to RightHigh
+
+      d\      
+
+    **  e-  
+
+Setting balance of c and d to Equal and
+Rotating tree left at c
+
+      d-      
+
+    c-  e-  
+
+Done ! Final tree is as below
+
+          b\              
+
+      a-      d-      
+
+    **  **  c-  e-  
+
+INSERTION: Example # 6
+Initial tree is as below
+
+          b\              
+
+      a-      d-      
+
+    **  **  c-  e-  
+
+Inserting f
+After insertion tree looks like below
+
+                  b\                              
+
+          a-              d-              
+
+      **      **      c-      e-      
+
+    **  **  **  **  **  **  **  f-  
+
+Rebalancing tree
+Setting balance of e to RightHigh
+
+      e\      
+
+    **  f-  
+
+Setting balance of d to RightHigh
+
+          d\              
+
+      c-      e\      
+
+    **  **  **  f-  
+
+Setting balance of b and d to Equal and
+Rotating tree left at b
+
+          d-              
+
+      b-      e\      
+
+    a-  c-  **  f-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 7
+Initial tree is as below
+
+          d-              
+
+      b-      e\      
+
+    a-  c-  **  f-  
+
+Inserting g
+After insertion tree looks like below
+
+                  d-                              
+
+          b-              e\              
+
+      a-      c-      **      f-      
+
+    **  **  **  **  **  **  **  g-  
+
+Rebalancing tree
+Setting balance of f to RightHigh
+
+      f\      
+
+    **  g-  
+
+Setting balance of e and f to Equal and
+Rotating tree left at e
+
+      f-      
+
+    e-  g-  
+
+Done ! Final tree is as below
+
+          d-              
+
+      b-      f-      
+
+    a-  c-  e-  g-  
+
+INSERTION: Example # 8
+Initial tree is as below
+
+          d-              
+
+      b-      f-      
+
+    a-  c-  e-  g-  
+
+Inserting h
+After insertion tree looks like below
+
+                  d-                              
+
+          b-              f-              
+
+      a-      c-      e-      g-      
+
+    **  **  **  **  **  **  **  h-  
+
+Rebalancing tree
+Setting balance of g to RightHigh
+
+      g\      
+
+    **  h-  
+
+Setting balance of f to RightHigh
+
+          f\              
+
+      e-      g\      
+
+    **  **  **  h-  
+
+Setting balance of d to RightHigh
+
+                  d\                              
+
+          b-              f\              
+
+      a-      c-      e-      g\      
+
+    **  **  **  **  **  **  **  h-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 9
+Initial tree is as below
+
+                  d\                              
+
+          b-              f\              
+
+      a-      c-      e-      g\      
+
+    **  **  **  **  **  **  **  h-  
+
+Inserting i
+After insertion tree looks like below
+
+                                  d\                                                              
+
+                  b-                              f\                              
+
+          a-              c-              e-              g\              
+
+      **      **      **      **      **      **      **      h-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  i-  
+
+Rebalancing tree
+Setting balance of h to RightHigh
+
+      h\      
+
+    **  i-  
+
+Setting balance of g and h to Equal and
+Rotating tree left at g
+
+      h-      
+
+    g-  i-  
+
+Done ! Final tree is as below
+
+                  d\                              
+
+          b-              f\              
+
+      a-      c-      e-      h-      
+
+    **  **  **  **  **  **  g-  i-  
+
+INSERTION: Example # 10
+Initial tree is as below
+
+                  d\                              
+
+          b-              f\              
+
+      a-      c-      e-      h-      
+
+    **  **  **  **  **  **  g-  i-  
+
+Inserting j
+After insertion tree looks like below
+
+                                  d\                                                              
+
+                  b-                              f\                              
+
+          a-              c-              e-              h-              
+
+      **      **      **      **      **      **      g-      i-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  j-  
+
+Rebalancing tree
+Setting balance of i to RightHigh
+
+      i\      
+
+    **  j-  
+
+Setting balance of h to RightHigh
+
+          h\              
+
+      g-      i\      
+
+    **  **  **  j-  
+
+Setting balance of f and h to Equal and
+Rotating tree left at f
+
+          h-              
+
+      f-      i\      
+
+    e-  g-  **  j-  
+
+Done ! Final tree is as below
+
+                  d\                              
+
+          b-              h-              
+
+      a-      c-      f-      i\      
+
+    **  **  **  **  e-  g-  **  j-  
+
+INSERTION: Example # 11
+Initial tree is as below
+
+                  d\                              
+
+          b-              h-              
+
+      a-      c-      f-      i\      
+
+    **  **  **  **  e-  g-  **  j-  
+
+Inserting k
+After insertion tree looks like below
+
+                                  d\                                                              
+
+                  b-                              h-                              
+
+          a-              c-              f-              i\              
+
+      **      **      **      **      e-      g-      **      j-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  k-  
+
+Rebalancing tree
+Setting balance of j to RightHigh
+
+      j\      
+
+    **  k-  
+
+Setting balance of i and j to Equal and
+Rotating tree left at i
+
+      j-      
+
+    i-  k-  
+
+Done ! Final tree is as below
+
+                  d\                              
+
+          b-              h-              
+
+      a-      c-      f-      j-      
+
+    **  **  **  **  e-  g-  i-  k-  
+
+INSERTION: Example # 12
+Initial tree is as below
+
+                  d\                              
+
+          b-              h-              
+
+      a-      c-      f-      j-      
+
+    **  **  **  **  e-  g-  i-  k-  
+
+Inserting l
+After insertion tree looks like below
+
+                                  d\                                                              
+
+                  b-                              h-                              
+
+          a-              c-              f-              j-              
+
+      **      **      **      **      e-      g-      i-      k-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  l-  
+
+Rebalancing tree
+Setting balance of k to RightHigh
+
+      k\      
+
+    **  l-  
+
+Setting balance of j to RightHigh
+
+          j\              
+
+      i-      k\      
+
+    **  **  **  l-  
+
+Setting balance of h to RightHigh
+
+                  h\                              
+
+          f-              j\              
+
+      e-      g-      i-      k\      
+
+    **  **  **  **  **  **  **  l-  
+
+Setting balance of d and h to Equal and
+Rotating tree left at d
+
+                  h-                              
+
+          d-              j\              
+
+      b-      f-      i-      k\      
+
+    a-  c-  e-  g-  **  **  **  l-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 13
+Initial tree is as below
+
+                  h-                              
+
+          d-              j\              
+
+      b-      f-      i-      k\      
+
+    a-  c-  e-  g-  **  **  **  l-  
+
+Inserting m
+After insertion tree looks like below
+
+                                  h-                                                              
+
+                  d-                              j\                              
+
+          b-              f-              i-              k\              
+
+      a-      c-      e-      g-      **      **      **      l-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  m-  
+
+Rebalancing tree
+Setting balance of l to RightHigh
+
+      l\      
+
+    **  m-  
+
+Setting balance of k and l to Equal and
+Rotating tree left at k
+
+      l-      
+
+    k-  m-  
+
+Done ! Final tree is as below
+
+                  h-                              
+
+          d-              j\              
+
+      b-      f-      i-      l-      
+
+    a-  c-  e-  g-  **  **  k-  m-  
+
+INSERTION: Example # 14
+Initial tree is as below
+
+                  h-                              
+
+          d-              j\              
+
+      b-      f-      i-      l-      
+
+    a-  c-  e-  g-  **  **  k-  m-  
+
+Inserting n
+After insertion tree looks like below
+
+                                  h-                                                              
+
+                  d-                              j\                              
+
+          b-              f-              i-              l-              
+
+      a-      c-      e-      g-      **      **      k-      m-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  n-  
+
+Rebalancing tree
+Setting balance of m to RightHigh
+
+      m\      
+
+    **  n-  
+
+Setting balance of l to RightHigh
+
+          l\              
+
+      k-      m\      
+
+    **  **  **  n-  
+
+Setting balance of j and l to Equal and
+Rotating tree left at j
+
+          l-              
+
+      j-      m\      
+
+    i-  k-  **  n-  
+
+Done ! Final tree is as below
+
+                  h-                              
+
+          d-              l-              
+
+      b-      f-      j-      m\      
+
+    a-  c-  e-  g-  i-  k-  **  n-  
+
+INSERTION: Example # 15
+Initial tree is as below
+
+                  h-                              
+
+          d-              l-              
+
+      b-      f-      j-      m\      
+
+    a-  c-  e-  g-  i-  k-  **  n-  
+
+Inserting o
+After insertion tree looks like below
+
+                                  h-                                                              
+
+                  d-                              l-                              
+
+          b-              f-              j-              m\              
+
+      a-      c-      e-      g-      i-      k-      **      n-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  o-  
+
+Rebalancing tree
+Setting balance of n to RightHigh
+
+      n\      
+
+    **  o-  
+
+Setting balance of m and n to Equal and
+Rotating tree left at m
+
+      n-      
+
+    m-  o-  
+
+Done ! Final tree is as below
+
+                  h-                              
+
+          d-              l-              
+
+      b-      f-      j-      n-      
+
+    a-  c-  e-  g-  i-  k-  m-  o-  
+
+INSERTION: Example # 16
+Initial tree is as below
+
+                  h-                              
+
+          d-              l-              
+
+      b-      f-      j-      n-      
+
+    a-  c-  e-  g-  i-  k-  m-  o-  
+
+Inserting p
+After insertion tree looks like below
+
+                                  h-                                                              
+
+                  d-                              l-                              
+
+          b-              f-              j-              n-              
+
+      a-      c-      e-      g-      i-      k-      m-      o-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  p-  
+
+Rebalancing tree
+Setting balance of o to RightHigh
+
+      o\      
+
+    **  p-  
+
+Setting balance of n to RightHigh
+
+          n\              
+
+      m-      o\      
+
+    **  **  **  p-  
+
+Setting balance of l to RightHigh
+
+                  l\                              
+
+          j-              n\              
+
+      i-      k-      m-      o\      
+
+    **  **  **  **  **  **  **  p-  
+
+Setting balance of h to RightHigh
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              n\              
+
+      a-      c-      e-      g-      i-      k-      m-      o\      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  p-  
+
+Done ! Final tree is as above
+
+INSERTION: Example # 17
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              n\              
+
+      a-      c-      e-      g-      i-      k-      m-      o\      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  p-  
+
+Inserting r
+After insertion tree looks like below
+
+                                                                  h\                                                                                                                              
+
+                                  d-                                                              l\                                                              
+
+                  b-                              f-                              j-                              n\                              
+
+          a-              c-              e-              g-              i-              k-              m-              o\              
+
+      **      **      **      **      **      **      **      **      **      **      **      **      **      **      **      p-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  r-  
+
+Rebalancing tree
+Setting balance of p to RightHigh
+
+      p\      
+
+    **  r-  
+
+Setting balance of o and p to Equal and
+Rotating tree left at o
+
+      p-      
+
+    o-  r-  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              n\              
+
+      a-      c-      e-      g-      i-      k-      m-      p-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  o-  r-  
+
+INSERTION: Example # 18
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              n\              
+
+      a-      c-      e-      g-      i-      k-      m-      p-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  o-  r-  
+
+Inserting s
+After insertion tree looks like below
+
+                                                                  h\                                                                                                                              
+
+                                  d-                                                              l\                                                              
+
+                  b-                              f-                              j-                              n\                              
+
+          a-              c-              e-              g-              i-              k-              m-              p-              
+
+      **      **      **      **      **      **      **      **      **      **      **      **      **      **      o-      r-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  s-  
+
+Rebalancing tree
+Setting balance of r to RightHigh
+
+      r\      
+
+    **  s-  
+
+Setting balance of p to RightHigh
+
+          p\              
+
+      o-      r\      
+
+    **  **  **  s-  
+
+Setting balance of n and p to Equal and
+Rotating tree left at n
+
+          p-              
+
+      n-      r\      
+
+    m-  o-  **  s-  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              p-              
+
+      a-      c-      e-      g-      i-      k-      n-      r\      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  m-  o-  **  s-  
+
+INSERTION: Example # 19
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              p-              
+
+      a-      c-      e-      g-      i-      k-      n-      r\      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  m-  o-  **  s-  
+
+Inserting t
+After insertion tree looks like below
+
+                                                                  h\                                                                                                                              
+
+                                  d-                                                              l\                                                              
+
+                  b-                              f-                              j-                              p-                              
+
+          a-              c-              e-              g-              i-              k-              n-              r\              
+
+      **      **      **      **      **      **      **      **      **      **      **      **      m-      o-      **      s-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  t-  
+
+Rebalancing tree
+Setting balance of s to RightHigh
+
+      s\      
+
+    **  t-  
+
+Setting balance of r and s to Equal and
+Rotating tree left at r
+
+      s-      
+
+    r-  t-  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              p-              
+
+      a-      c-      e-      g-      i-      k-      n-      s-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  m-  o-  r-  t-  
+
+INSERTION: Example # 20
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d-                              l\                              
+
+          b-              f-              j-              p-              
+
+      a-      c-      e-      g-      i-      k-      n-      s-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  m-  o-  r-  t-  
+
+Inserting u
+After insertion tree looks like below
+
+                                                                  h\                                                                                                                              
+
+                                  d-                                                              l\                                                              
+
+                  b-                              f-                              j-                              p-                              
+
+          a-              c-              e-              g-              i-              k-              n-              s-              
+
+      **      **      **      **      **      **      **      **      **      **      **      **      m-      o-      r-      t-      
+
+    **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of t to RightHigh
+
+      t\      
+
+    **  u-  
+
+Setting balance of s to RightHigh
+
+          s\              
+
+      r-      t\      
+
+    **  **  **  u-  
+
+Setting balance of p to RightHigh
+
+                  p\                              
+
+          n-              s\              
+
+      m-      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Setting balance of l and p to Equal and
+Rotating tree left at l
+
+                  p-                              
+
+          l-              s\              
+
+      j-      n-      r-      t\      
+
+    i-  k-  m-  o-  **  **  **  u-  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  d-                              p-                              
+
+          b-              f-              l-              s\              
+
+      a-      c-      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+DELETION: Example # 1
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d-                              p-                              
+
+          b-              f-              l-              s\              
+
+      a-      c-      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Deleting a
+After deletion tree looks like below
+
+                                  h\                                                              
+
+                  d-                              p-                              
+
+          b-              f-              l-              s\              
+
+      **      c-      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of b to RightHigh
+
+      b\      
+
+    **  c-  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  d-                              p-                              
+
+          b\              f-              l-              s\              
+
+      **      c-      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+DELETION: Example # 2
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d-                              p-                              
+
+          b\              f-              l-              s\              
+
+      **      c-      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Deleting b
+After deletion tree looks like below
+
+                                  h\                                                              
+
+                  d-                              p-                              
+
+          c-              f-              l-              s\              
+
+      **      **      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of d to RightHigh
+
+          d\              
+
+      c-      f-      
+
+    **  **  e-  g-  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  d\                              p-                              
+
+          c-              f-              l-              s\              
+
+      **      **      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+DELETION: Example # 3
+Initial tree is as below
+
+                                  h\                                                              
+
+                  d\                              p-                              
+
+          c-              f-              l-              s\              
+
+      **      **      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Deleting c
+After deletion tree looks like below
+
+                                  h\                                                              
+
+                  d\                              p-                              
+
+          **              f-              l-              s\              
+
+      **      **      e-      g-      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of f to LeftHigh
+And Rotating tree left at d
+
+          f/              
+
+      d\      g-      
+
+    **  e-  **  **  
+
+Done ! Final tree is as below
+
+                                  h\                                                              
+
+                  f/                              p-                              
+
+          d\              g-              l-              s\              
+
+      **      e-      **      **      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+DELETION: Example # 4
+Initial tree is as below
+
+                                  h\                                                              
+
+                  f/                              p-                              
+
+          d\              g-              l-              s\              
+
+      **      e-      **      **      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Deleting d
+After deletion tree looks like below
+
+                                  h\                                                              
+
+                  f/                              p-                              
+
+          e-              g-              l-              s\              
+
+      **      **      **      **      j-      n-      r-      t\      
+
+    **  **  **  **  **  **  **  **  i-  k-  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of f to Equal
+
+      f-      
+
+    e-  g-  
+
+Setting balance of p to LeftHigh
+And Rotating tree left at h
+
+                                  p/                                                              
+
+                  h\                              s\                              
+
+          f-              l-              r-              t\              
+
+      e-      g-      j-      n-      **      **      **      u-      
+
+    **  **  **  **  i-  k-  m-  o-  **  **  **  **  **  **  **  **  
+
+Done ! Final tree is as above
+
+DELETION: Example # 5
+Initial tree is as below
+
+                                  p/                                                              
+
+                  h\                              s\                              
+
+          f-              l-              r-              t\              
+
+      e-      g-      j-      n-      **      **      **      u-      
+
+    **  **  **  **  i-  k-  m-  o-  **  **  **  **  **  **  **  **  
+
+Deleting e
+After deletion tree looks like below
+
+                                  p/                                                              
+
+                  h\                              s\                              
+
+          f-              l-              r-              t\              
+
+      **      g-      j-      n-      **      **      **      u-      
+
+    **  **  **  **  i-  k-  m-  o-  **  **  **  **  **  **  **  **  
+
+Rebalancing tree
+Setting balance of f to RightHigh
+
+      f\      
+
+    **  g-  
+
+Done ! Final tree is as below
+
+                                  p/                                                              
+
+                  h\                              s\                              
+
+          f\              l-              r-              t\              
+
+      **      g-      j-      n-      **      **      **      u-      
+
+    **  **  **  **  i-  k-  m-  o-  **  **  **  **  **  **  **  **  
+
+DELETION: Example # 6
+Initial tree is as below
+
+                                  p/                                                              
+
+                  h\                              s\                              
+
+          f\              l-              r-              t\              
+
+      **      g-      j-      n-      **      **      **      u-      
+
+    **  **  **  **  i-  k-  m-  o-  **  **  **  **  **  **  **  **  
+
+Deleting f
+After deletion tree looks like below
+
+                                  p/                                                              
+
+                  h\                              s\                              
+
+          g-              l-              r-              t\              
+
+      **      **      j-      n-      **      **      **      u-      
+
+    **  **  **  **  i-  k-  m-  o-  **  **  **  **  **  **  **  **  
+
+Rebalancing tree
+Setting balance of l to LeftHigh
+And Rotating tree left at h
+
+                  l/                              
+
+          h\              n-              
+
+      g-      j-      m-      o-      
+
+    **  **  i-  k-  **  **  **  **  
+
+Done ! Final tree is as below
+
+                                  p/                                                              
+
+                  l/                              s\                              
+
+          h\              n-              r-              t\              
+
+      g-      j-      m-      o-      **      **      **      u-      
+
+    **  **  i-  k-  **  **  **  **  **  **  **  **  **  **  **  **  
+
+DELETION: Example # 7
+Initial tree is as below
+
+                                  p/                                                              
+
+                  l/                              s\                              
+
+          h\              n-              r-              t\              
+
+      g-      j-      m-      o-      **      **      **      u-      
+
+    **  **  i-  k-  **  **  **  **  **  **  **  **  **  **  **  **  
+
+Deleting g
+After deletion tree looks like below
+
+                                  p/                                                              
+
+                  l/                              s\                              
+
+          h\              n-              r-              t\              
+
+      **      j-      m-      o-      **      **      **      u-      
+
+    **  **  i-  k-  **  **  **  **  **  **  **  **  **  **  **  **  
+
+Rebalancing tree
+Setting balance of j to LeftHigh
+And Rotating tree left at h
+
+          j/              
+
+      h\      k-      
+
+    **  i-  **  **  
+
+Done ! Final tree is as below
+
+                                  p/                                                              
+
+                  l/                              s\                              
+
+          j/              n-              r-              t\              
+
+      h\      k-      m-      o-      **      **      **      u-      
+
+    **  i-  **  **  **  **  **  **  **  **  **  **  **  **  **  **  
+
+DELETION: Example # 8
+Initial tree is as below
+
+                                  p/                                                              
+
+                  l/                              s\                              
+
+          j/              n-              r-              t\              
+
+      h\      k-      m-      o-      **      **      **      u-      
+
+    **  i-  **  **  **  **  **  **  **  **  **  **  **  **  **  **  
+
+Deleting h
+After deletion tree looks like below
+
+                  p/                              
+
+          l/              s\              
+
+      j/      n-      r-      t\      
+
+    i-  k-  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of j to Equal
+
+      j-      
+
+    i-  k-  
+
+Setting balance of l to Equal
+
+          l-              
+
+      j-      n-      
+
+    i-  k-  m-  o-  
+
+Setting balance of p to Equal
+
+                  p-                              
+
+          l-              s\              
+
+      j-      n-      r-      t\      
+
+    i-  k-  m-  o-  **  **  **  u-  
+
+Done ! Final tree is as above
+
+DELETION: Example # 9
+Initial tree is as below
+
+                  p-                              
+
+          l-              s\              
+
+      j-      n-      r-      t\      
+
+    i-  k-  m-  o-  **  **  **  u-  
+
+Deleting i
+After deletion tree looks like below
+
+                  p-                              
+
+          l-              s\              
+
+      j-      n-      r-      t\      
+
+    **  k-  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of j to RightHigh
+
+      j\      
+
+    **  k-  
+
+Done ! Final tree is as below
+
+                  p-                              
+
+          l-              s\              
+
+      j\      n-      r-      t\      
+
+    **  k-  m-  o-  **  **  **  u-  
+
+DELETION: Example # 10
+Initial tree is as below
+
+                  p-                              
+
+          l-              s\              
+
+      j\      n-      r-      t\      
+
+    **  k-  m-  o-  **  **  **  u-  
+
+Deleting j
+After deletion tree looks like below
+
+                  p-                              
+
+          l-              s\              
+
+      k-      n-      r-      t\      
+
+    **  **  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of l to RightHigh
+
+          l\              
+
+      k-      n-      
+
+    **  **  m-  o-  
+
+Done ! Final tree is as below
+
+                  p-                              
+
+          l\              s\              
+
+      k-      n-      r-      t\      
+
+    **  **  m-  o-  **  **  **  u-  
+
+DELETION: Example # 11
+Initial tree is as below
+
+                  p-                              
+
+          l\              s\              
+
+      k-      n-      r-      t\      
+
+    **  **  m-  o-  **  **  **  u-  
+
+Deleting k
+After deletion tree looks like below
+
+                  p-                              
+
+          l\              s\              
+
+      **      n-      r-      t\      
+
+    **  **  m-  o-  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of n to LeftHigh
+And Rotating tree left at l
+
+          n/              
+
+      l\      o-      
+
+    **  m-  **  **  
+
+Done ! Final tree is as below
+
+                  p-                              
+
+          n/              s\              
+
+      l\      o-      r-      t\      
+
+    **  m-  **  **  **  **  **  u-  
+
+DELETION: Example # 12
+Initial tree is as below
+
+                  p-                              
+
+          n/              s\              
+
+      l\      o-      r-      t\      
+
+    **  m-  **  **  **  **  **  u-  
+
+Deleting l
+After deletion tree looks like below
+
+                  p-                              
+
+          n/              s\              
+
+      m-      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of n to Equal
+
+      n-      
+
+    m-  o-  
+
+Setting balance of p to RightHigh
+
+                  p\                              
+
+          n-              s\              
+
+      m-      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Done ! Final tree is as above
+
+DELETION: Example # 13
+Initial tree is as below
+
+                  p\                              
+
+          n-              s\              
+
+      m-      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Deleting m
+After deletion tree looks like below
+
+                  p\                              
+
+          n-              s\              
+
+      **      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of n to RightHigh
+
+      n\      
+
+    **  o-  
+
+Done ! Final tree is as below
+
+                  p\                              
+
+          n\              s\              
+
+      **      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+DELETION: Example # 14
+Initial tree is as below
+
+                  p\                              
+
+          n\              s\              
+
+      **      o-      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Deleting n
+After deletion tree looks like below
+
+                  p\                              
+
+          o-              s\              
+
+      **      **      r-      t\      
+
+    **  **  **  **  **  **  **  u-  
+
+Rebalancing tree
+Setting balance of p and s to Equal
+And Rotating tree left at p
+
+          s-              
+
+      p-      t\      
+
+    o-  r-  **  u-  
+
+Done ! Final tree is as above
+
+DELETION: Example # 15
+Initial tree is as below
+
+          s-              
+
+      p-      t\      
+
+    o-  r-  **  u-  
+
+Deleting o
+After deletion tree looks like below
+
+          s-              
+
+      p-      t\      
+
+    **  r-  **  u-  
+
+Rebalancing tree
+Setting balance of p to RightHigh
+
+      p\      
+
+    **  r-  
+
+Done ! Final tree is as below
+
+          s-              
+
+      p\      t\      
+
+    **  r-  **  u-  
+
+DELETION: Example # 16
+Initial tree is as below
+
+          s-              
+
+      p\      t\      
+
+    **  r-  **  u-  
+
+Deleting p
+After deletion tree looks like below
+
+          s-              
+
+      r-      t\      
+
+    **  **  **  u-  
+
+Rebalancing tree
+Setting balance of s to RightHigh
+
+          s\              
+
+      r-      t\      
+
+    **  **  **  u-  
+
+Done ! Final tree is as above
+
+DELETION: Example # 17
+Initial tree is as below
+
+          s\              
+
+      r-      t\      
+
+    **  **  **  u-  
+
+Deleting r
+After deletion tree looks like below
+
+          s\              
+
+      **      t\      
+
+    **  **  **  u-  
+
+Rebalancing tree
+Setting balance of s and t to Equal
+And Rotating tree left at s
+
+      t-      
+
+    s-  u-  
+
+Done ! Final tree is as above
+
+DELETION: Example # 18
+Initial tree is as below
+
+      t-      
+
+    s-  u-  
+
+Deleting s
+After deletion tree looks like below
+
+      t-      
+
+    **  u-  
+
+Rebalancing tree
+Setting balance of t to RightHigh
+
+      t\      
+
+    **  u-  
+
+Done ! Final tree is as above
+
+DELETION: Example # 19
+Initial tree is as below
+
+      t\      
+
+    **  u-  
+
+Deleting t
+Done ! Final tree is as below
+
+    u-  
+
+DELETION: Example # 20
+Initial tree is as below
+
+    u-  
+
+Deleting u
+Done ! Final tree is NULL
+
+
